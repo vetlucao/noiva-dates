@@ -1,0 +1,679 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <!-- SEO -->
+  <title>Noiva & Dates | Papelaria Artesanal de Casamento</title>
+  <meta name="description" content="Convites e papelaria de casamento artesanais. Corte a laser, acrílico, compensado e gravação em metal. Produção própria. Entrega para todo o Brasil." />
+  <meta name="robots" content="index, follow" />
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website" />
+  <meta property="og:title" content="Noiva & Dates | Papelaria Artesanal de Casamento" />
+  <meta property="og:description" content="Convites e papelaria de casamento artesanais. Corte a laser, acrílico, compensado e gravação em metal. Produção própria. Entrega para todo o Brasil." />
+  <meta property="og:image" content="assets/og-image.jpg" />
+  <meta property="og:url" content="https://noivaedates.com.br" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Cormorant+Infant:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400;1,500&family=Outfit:wght@300;400;500;600&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- Grain overlay -->
+  <div class="grain" aria-hidden="true"></div>
+
+  <!-- Custom cursor -->
+  <div class="cursor-dot" aria-hidden="true"></div>
+  <div class="cursor-ring" aria-hidden="true"></div>
+
+  <!-- ═══════════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════════ -->
+  <header class="nav" id="nav">
+    <div class="nav__inner container">
+      <a href="#hero" class="nav__logo" aria-label="Noiva & Dates — início">
+        <img src="assets/images/logo/noivaedates-logo-completa.png" alt="Noiva & Dates" class="nav__logo-img" />
+      </a>
+
+      <nav class="nav__links" aria-label="Navegação principal">
+        <a href="#sobre" class="nav__link">Ateliê</a>
+        <a href="#colecoes" class="nav__link">Coleções</a>
+        <a href="#como-funciona" class="nav__link">Como funciona</a>
+        <a href="#depoimentos" class="nav__link">Depoimentos</a>
+        <a href="#orcamento" class="nav__cta">Solicitar orçamento</a>
+      </nav>
+
+      <button class="nav__hamburger" id="navHamburger" aria-label="Abrir menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+
+    <!-- Mobile drawer -->
+    <nav class="nav__mobile" id="navLinks" aria-label="Menu mobile">
+      <a href="#sobre" class="nav__mobile-link">Ateliê</a>
+      <a href="#colecoes" class="nav__mobile-link">Coleções</a>
+      <a href="#como-funciona" class="nav__mobile-link">Como funciona</a>
+      <a href="#depoimentos" class="nav__mobile-link">Depoimentos</a>
+      <a href="#orcamento" class="nav__mobile-cta">Solicitar orçamento</a>
+    </nav>
+  </header>
+
+  <main>
+
+    <!-- ═══════════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════════ -->
+    <section class="hero" id="hero" aria-label="Apresentação">
+      <div class="hero__left">
+        <span class="hero__eyebrow reveal">Papelaria artesanal de casamento</span>
+        <h1 class="hero__title reveal">
+          Cada detalhe<br />
+          <em>conta a sua</em><br />
+          história
+        </h1>
+        <p class="hero__sub reveal">
+          Convites, kits padrinhos e papelaria de mesa feitos à mão com corte a laser,
+          acrílico, compensado e gravação em metal. Produção 100% própria.
+        </p>
+        <div class="hero__actions reveal">
+          <a href="#orcamento" class="btn btn--gold">Solicitar orçamento</a>
+          <a href="#colecoes" class="btn btn--ghost">Ver coleções</a>
+        </div>
+        <div class="hero__logo-mark reveal">
+          <img src="assets/images/logo/noivaedates-icone.png" alt="" aria-hidden="true" class="hero__icon" />
+        </div>
+      </div>
+
+      <div class="hero__right" aria-hidden="true">
+        <div class="hero__mosaic">
+          <div class="hero__mosaic-item hero__mosaic-item--1">
+            <img src="assets/images/hero-1.jpg" alt="Convite artesanal com corte a laser" loading="eager" />
+          </div>
+          <div class="hero__mosaic-item hero__mosaic-item--2">
+            <img src="assets/images/hero-2.jpg" alt="Kit padrinhos em caixa de acrílico" loading="eager" />
+          </div>
+          <div class="hero__mosaic-item hero__mosaic-item--3">
+            <img src="assets/images/hero-3.jpg" alt="Papelaria de mesa artesanal" loading="eager" />
+          </div>
+          <div class="hero__mosaic-item hero__mosaic-item--4">
+            <img src="assets/images/hero-4.jpg" alt="Gravação em metal para convites" loading="eager" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         MARQUEE
+    ═══════════════════════════════════════════ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee__track">
+        <div class="marquee__group">
+          <span class="marquee__item">Corte a laser</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Acrílico artesanal</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Compensado 3mm e 6mm</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Gravação em metal</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Produção 100% própria</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Entrega para todo o Brasil</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Personalização exclusiva</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Papelaria de alto padrão</span>
+          <span class="marquee__sep">✦</span>
+        </div>
+        <!-- Duplicado para loop contínuo -->
+        <div class="marquee__group" aria-hidden="true">
+          <span class="marquee__item">Corte a laser</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Acrílico artesanal</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Compensado 3mm e 6mm</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Gravação em metal</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Produção 100% própria</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Entrega para todo o Brasil</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Personalização exclusiva</span>
+          <span class="marquee__sep">✦</span>
+          <span class="marquee__item">Papelaria de alto padrão</span>
+          <span class="marquee__sep">✦</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- ═══════════════════════════════════════════
+         SOBRE / ATELIÊ
+    ═══════════════════════════════════════════ -->
+    <section class="sobre" id="sobre" aria-labelledby="sobre-title">
+      <div class="container sobre__grid">
+
+        <div class="sobre__visual reveal">
+          <div class="sobre__img-wrap">
+            <img src="assets/images/atelie.jpg" alt="Interior do ateliê Noiva & Dates com maquinário de corte a laser" loading="lazy" />
+          </div>
+          <div class="sobre__badge">
+            <span class="sobre__badge-num">100%</span>
+            <span class="sobre__badge-label">produção<br/>própria</span>
+          </div>
+        </div>
+
+        <div class="sobre__content">
+          <span class="label reveal">Sobre o ateliê</span>
+          <h2 class="sobre__title reveal" id="sobre-title">
+            Artesanalidade que<br /><em>emociona</em>
+          </h2>
+          <p class="sobre__text reveal">
+            Nascemos da paixão pela papelaria e pelo desejo de transformar o dia mais especial
+            da sua vida em algo visualmente inesquecível. Cada peça é planejada, cortada e
+            montada por nós — sem terceirização, sem pressa.
+          </p>
+          <p class="sobre__text reveal">
+            Nosso ateliê reúne tecnologia de corte a laser com o toque humano de quem ama o
+            que faz. O resultado são convites e kits que chegam antes mesmo do seu casamento
+            para encantar.
+          </p>
+
+          <div class="sobre__diferenciais">
+            <div class="sobre__dif reveal">
+              <div class="sobre__dif-icon">◈</div>
+              <div>
+                <strong>Corte a laser de precisão</strong>
+                <p>Detalhes impossíveis de fazer à mão, com acabamento perfeito.</p>
+              </div>
+            </div>
+            <div class="sobre__dif reveal">
+              <div class="sobre__dif-icon">◈</div>
+              <div>
+                <strong>Materiais nobres</strong>
+                <p>Acrílico, compensado natural, papel algodão e gravação em metal.</p>
+              </div>
+            </div>
+            <div class="sobre__dif reveal">
+              <div class="sobre__dif-icon">◈</div>
+              <div>
+                <strong>Projeto exclusivo</strong>
+                <p>Nenhuma noiva recebe o mesmo convite. Cada projeto parte do zero.</p>
+              </div>
+            </div>
+            <div class="sobre__dif reveal">
+              <div class="sobre__dif-icon">◈</div>
+              <div>
+                <strong>Entrega nacional</strong>
+                <p>Enviamos com embalagem especial para todo o Brasil com segurança.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         COLEÇÕES / PORTFÓLIO
+    ═══════════════════════════════════════════ -->
+    <section class="colecoes" id="colecoes" aria-labelledby="colecoes-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Portfólio</span>
+          <h2 id="colecoes-title">Nossas coleções</h2>
+          <p>Da concepção à entrega — peças únicas para o dia mais especial da sua vida.</p>
+        </div>
+
+        <!-- Filtros de categoria -->
+        <div class="colecoes__filters reveal" role="tablist" aria-label="Filtrar coleções">
+          <button class="colecoes__filter active" data-filter="all" role="tab" aria-selected="true">Todos</button>
+          <button class="colecoes__filter" data-filter="convites" role="tab" aria-selected="false">Convites</button>
+          <button class="colecoes__filter" data-filter="padrinhos" role="tab" aria-selected="false">Kits Padrinhos</button>
+          <button class="colecoes__filter" data-filter="acrilico" role="tab" aria-selected="false">Caixas Acrílico</button>
+          <button class="colecoes__filter" data-filter="compensado" role="tab" aria-selected="false">Caixas Compensado</button>
+          <button class="colecoes__filter" data-filter="metal" role="tab" aria-selected="false">Gravação em Metal</button>
+          <button class="colecoes__filter" data-filter="mesa" role="tab" aria-selected="false">Papelaria de Mesa</button>
+        </div>
+
+        <div class="colecoes__grid" id="colecoes-grid">
+
+          <article class="col-card col-card--tall reveal" data-category="convites" aria-label="Convites Personalizados">
+            <img src="assets/images/col-convite-1.jpg" alt="Convite de casamento personalizado com corte a laser em papel algodão" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Convites Personalizados</span>
+              <h3 class="col-card__title">Convite Clássico Laser</h3>
+              <p class="col-card__sub">Papel algodão 300g + envelope personalizado</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card reveal" data-category="padrinhos" aria-label="Kit Padrinhos">
+            <img src="assets/images/col-padrinhos-1.jpg" alt="Kit padrinhos em caixa de madeira com gravação a laser" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Kits Padrinhos</span>
+              <h3 class="col-card__title">Kit Padrinho Premium</h3>
+              <p class="col-card__sub">Caixa compensado + itens personalizados</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card reveal" data-category="acrilico" aria-label="Caixas Acrílico">
+            <img src="assets/images/col-acrilico-1.jpg" alt="Caixa de acrílico transparente com monograma gravado" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Caixas Acrílico</span>
+              <h3 class="col-card__title">Caixa Cristal</h3>
+              <p class="col-card__sub">Acrílico 3mm + gravação a laser</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card col-card--wide reveal" data-category="mesa" aria-label="Papelaria de Mesa">
+            <img src="assets/images/col-mesa-1.jpg" alt="Papelaria de mesa de casamento: cardápios, porta-lugares e marcadores" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Papelaria de Mesa</span>
+              <h3 class="col-card__title">Conjunto Mesa Posta</h3>
+              <p class="col-card__sub">Cardápios, porta-lugares, marcadores de assento</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card col-card--tall reveal" data-category="compensado" aria-label="Caixas Compensado">
+            <img src="assets/images/col-compensado-1.jpg" alt="Caixa de compensado 6mm com corte a laser e monograma" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Caixas Compensado</span>
+              <h3 class="col-card__title">Caixa Madeira Nobre</h3>
+              <p class="col-card__sub">Compensado 6mm + fechamento magnético</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card reveal" data-category="metal" aria-label="Gravação em Metal">
+            <img src="assets/images/col-metal-1.jpg" alt="Placa de metal gravada com nomes dos noivos e data do casamento" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Gravação em Metal</span>
+              <h3 class="col-card__title">Placa Monograma Metal</h3>
+              <p class="col-card__sub">Latão escovado + gravação a laser</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card reveal" data-category="convites" aria-label="Convite Caixa">
+            <img src="assets/images/col-convite-2.jpg" alt="Convite caixa premium com lacre de cera e fita de cetim" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Convites Personalizados</span>
+              <h3 class="col-card__title">Convite Caixa Luxo</h3>
+              <p class="col-card__sub">Caixa acrílico + lacre de cera personalizado</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+          <article class="col-card reveal" data-category="padrinhos" aria-label="Kit Madrinha">
+            <img src="assets/images/col-padrinhos-2.jpg" alt="Kit madrinha com caixa floral e itens de beleza personalizados" loading="lazy" />
+            <div class="col-card__overlay">
+              <span class="col-card__cat">Kits Padrinhos</span>
+              <h3 class="col-card__title">Kit Madrinha Floral</h3>
+              <p class="col-card__sub">Caixa acrílico + cartão + itens personalizados</p>
+              <a href="#orcamento" class="col-card__cta">Solicitar</a>
+            </div>
+          </article>
+
+        </div>
+
+        <div class="colecoes__cta reveal">
+          <a href="#orcamento" class="btn btn--gold">Quero minha papelaria exclusiva</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         COMO FUNCIONA
+    ═══════════════════════════════════════════ -->
+    <section class="como" id="como-funciona" aria-labelledby="como-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Processo</span>
+          <h2 id="como-title">Como funciona</h2>
+          <p>Do primeiro contato à entrega na sua porta — simples, cuidadoso e exclusivo.</p>
+        </div>
+
+        <div class="como__steps">
+          <div class="como__connector" aria-hidden="true"></div>
+
+          <div class="como__step reveal">
+            <div class="como__step-num">01</div>
+            <div class="como__step-icon" aria-hidden="true">✉</div>
+            <h3 class="como__step-title">Contato inicial</h3>
+            <p class="como__step-text">
+              Você nos envia uma mensagem pelo WhatsApp ou formulário com a data,
+              número de convidados e referências que te inspiram.
+            </p>
+          </div>
+
+          <div class="como__step reveal">
+            <div class="como__step-num">02</div>
+            <div class="como__step-icon" aria-hidden="true">✏</div>
+            <h3 class="como__step-title">Projeto exclusivo</h3>
+            <p class="como__step-text">
+              Desenvolvemos um briefing personalizado e criamos o projeto visual do zero,
+              com até 2 rodadas de ajustes incluídas.
+            </p>
+          </div>
+
+          <div class="como__step reveal">
+            <div class="como__step-num">03</div>
+            <div class="como__step-icon" aria-hidden="true">⬡</div>
+            <h3 class="como__step-title">Produção artesanal</h3>
+            <p class="como__step-text">
+              Após a aprovação, iniciamos a produção em nosso ateliê com corte a laser,
+              montagem e acabamento 100% manual.
+            </p>
+          </div>
+
+          <div class="como__step reveal">
+            <div class="como__step-num">04</div>
+            <div class="como__step-icon" aria-hidden="true">♡</div>
+            <h3 class="como__step-title">Entrega com amor</h3>
+            <p class="como__step-text">
+              Embalamos com cuidado e enviamos para todo o Brasil.
+              Cada caixa chega pronta para encantar.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         DEPOIMENTOS
+    ═══════════════════════════════════════════ -->
+    <section class="depo" id="depoimentos" aria-labelledby="depo-title">
+      <div class="container">
+        <div class="section-header reveal">
+          <span class="label">Depoimentos</span>
+          <h2 id="depo-title">O que dizem<br /><em>as noivas</em></h2>
+        </div>
+
+        <div class="depo__grid">
+
+          <article class="depo__card depo__card--featured reveal" aria-label="Depoimento em destaque de Ana Carolina">
+            <div class="depo__stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote class="depo__quote">
+              "Quando abri a caixa dos convites, chorei. Não esperava algo tão lindo e tão…
+              <em>meu</em>. Cada detalhe estava exatamente como eu tinha sonhado. Minhas madrinhas
+              ficaram sem palavras quando receberam os kits. A Noiva & Dates transformou o
+              início da minha jornada até o altar em algo mágico."
+            </blockquote>
+            <footer class="depo__author">
+              <img src="assets/images/depo-ana.jpg" alt="Foto de Ana Carolina" loading="lazy" class="depo__avatar" />
+              <div>
+                <strong>Ana Carolina S.</strong>
+                <span>Casamento em março de 2024 · São Paulo</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="depo__card reveal" aria-label="Depoimento de Fernanda Lima">
+            <div class="depo__stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote class="depo__quote">
+              "O atendimento é tão cuidadoso quanto as peças. Senti que elas realmente
+              entenderam o que eu queria. Os convites em acrílico ficaram deslumbrantes!"
+            </blockquote>
+            <footer class="depo__author">
+              <img src="assets/images/depo-fernanda.jpg" alt="Foto de Fernanda Lima" loading="lazy" class="depo__avatar" />
+              <div>
+                <strong>Fernanda L.</strong>
+                <span>Casamento em outubro de 2024 · Rio de Janeiro</span>
+              </div>
+            </footer>
+          </article>
+
+          <article class="depo__card reveal" aria-label="Depoimento de Mariana Costa">
+            <div class="depo__stars" aria-label="5 de 5 estrelas">★★★★★</div>
+            <blockquote class="depo__quote">
+              "Fiz os convites, os kits de padrinhos e toda a papelaria de mesa. Meus convidados
+              pediram o contato da Noiva & Dates no dia do casamento. Superou todas as expectativas."
+            </blockquote>
+            <footer class="depo__author">
+              <img src="assets/images/depo-mariana.jpg" alt="Foto de Mariana Costa" loading="lazy" class="depo__avatar" />
+              <div>
+                <strong>Mariana C.</strong>
+                <span>Casamento em janeiro de 2025 · Belo Horizonte</span>
+              </div>
+            </footer>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════════
+         FORMULÁRIO DE ORÇAMENTO
+    ═══════════════════════════════════════════ -->
+    <section class="orcamento" id="orcamento" aria-labelledby="orc-title">
+      <div class="container orcamento__grid">
+
+        <div class="orcamento__info reveal">
+          <span class="label label--light">Orçamento</span>
+          <h2 class="orcamento__title" id="orc-title">
+            Vamos criar algo<br /><em>só seu?</em>
+          </h2>
+          <p class="orcamento__sub">
+            Preencha o formulário ao lado e entraremos em contato pelo WhatsApp
+            em até 24 horas úteis com uma proposta personalizada.
+          </p>
+
+          <div class="orcamento__bullets">
+            <div class="orcamento__bullet">
+              <span class="orcamento__bullet-icon">✓</span>
+              <span>Projeto visual exclusivo, sem templates prontos</span>
+            </div>
+            <div class="orcamento__bullet">
+              <span class="orcamento__bullet-icon">✓</span>
+              <span>Produção artesanal com materiais de alto padrão</span>
+            </div>
+            <div class="orcamento__bullet">
+              <span class="orcamento__bullet-icon">✓</span>
+              <span>Até 2 rodadas de ajustes incluídas no orçamento</span>
+            </div>
+            <div class="orcamento__bullet">
+              <span class="orcamento__bullet-icon">✓</span>
+              <span>Entrega rastreada para todo o Brasil</span>
+            </div>
+          </div>
+
+          <a href="https://wa.me/5511999999999?text=Oi!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+             class="orcamento__whats"
+             target="_blank" rel="noopener noreferrer"
+             aria-label="Falar pelo WhatsApp">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            Prefere o WhatsApp? Clique aqui
+          </a>
+        </div>
+
+        <div class="orcamento__form-wrap reveal">
+          <form class="orcamento__form" id="orcamentoForm"
+                action="https://formspree.io/f/SEU_ID_AQUI"
+                method="POST"
+                novalidate>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label for="nome" class="form__label">Nome completo <span aria-hidden="true">*</span></label>
+                <input type="text" id="nome" name="nome" class="form__input"
+                       placeholder="Seu nome" autocomplete="name"
+                       required aria-required="true" />
+                <span class="form__error" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form__row form__row--2">
+              <div class="form__field">
+                <label for="whatsapp" class="form__label">WhatsApp <span aria-hidden="true">*</span></label>
+                <input type="tel" id="whatsapp" name="whatsapp" class="form__input"
+                       placeholder="(11) 99999-9999" autocomplete="tel"
+                       required aria-required="true" />
+                <span class="form__error" role="alert"></span>
+              </div>
+              <div class="form__field">
+                <label for="data-casamento" class="form__label">Data do casamento</label>
+                <input type="date" id="data-casamento" name="data_casamento" class="form__input" />
+              </div>
+            </div>
+
+            <div class="form__row form__row--2">
+              <div class="form__field">
+                <label for="convidados" class="form__label">Nº de convidados</label>
+                <input type="number" id="convidados" name="convidados" class="form__input"
+                       placeholder="Ex: 150" min="1" max="2000" />
+              </div>
+              <div class="form__field">
+                <label for="produto" class="form__label">Tipo de produto <span aria-hidden="true">*</span></label>
+                <select id="produto" name="produto" class="form__input form__select"
+                        required aria-required="true">
+                  <option value="" disabled selected>Selecione</option>
+                  <option value="convites">Convites Personalizados</option>
+                  <option value="padrinhos">Kits Padrinhos / Madrinhas</option>
+                  <option value="acrilico">Caixas Acrílico</option>
+                  <option value="compensado">Caixas Compensado</option>
+                  <option value="metal">Gravação em Metal</option>
+                  <option value="mesa">Papelaria de Mesa</option>
+                  <option value="completo">Pacote Completo</option>
+                </select>
+                <span class="form__error" role="alert"></span>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="form__field">
+                <label for="mensagem" class="form__label">Conta um pouco sobre seu casamento</label>
+                <textarea id="mensagem" name="mensagem" class="form__input form__textarea"
+                          placeholder="Tema, paleta de cores, estilo, referências que te inspiram…"
+                          rows="4"></textarea>
+              </div>
+            </div>
+
+            <!-- Honeypot anti-spam -->
+            <input type="text" name="_gotcha" style="display:none" tabindex="-1" autocomplete="off" />
+
+            <button type="submit" class="btn btn--gold btn--full" id="formSubmitBtn">
+              <span class="btn__text">Enviar e aguardar contato</span>
+              <span class="btn__loading" aria-hidden="true" hidden>Enviando…</span>
+            </button>
+
+            <p class="form__privacy">
+              Seus dados são usados apenas para entrar em contato com você.
+              Não compartilhamos com terceiros.
+            </p>
+
+          </form>
+
+          <div class="form__success" id="formSuccess" hidden role="alert">
+            <div class="form__success-icon">✓</div>
+            <h3>Mensagem enviada!</h3>
+            <p>Entraremos em contato pelo WhatsApp em até 24 horas úteis. Mal podemos esperar para criar algo lindo junto com você!</p>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ═══════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+
+      <div class="footer__brand">
+        <img src="assets/images/logo/noivaedates-logo-completa.png" alt="Noiva & Dates" class="footer__logo" />
+        <p class="footer__tagline">
+          Papelaria artesanal de casamento.<br />
+          Cada detalhe, com amor.
+        </p>
+        <div class="footer__socials">
+          <a href="https://instagram.com/noivaedates" target="_blank" rel="noopener noreferrer"
+             aria-label="Instagram Noiva & Dates" class="footer__social">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zm0-2.163c-3.259 0-3.667.014-4.947.072-4.358.2-6.78 2.618-6.98 6.98-.059 1.281-.073 1.689-.073 4.948 0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98 1.281.058 1.689.072 4.948.072 3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98-1.281-.059-1.69-.073-4.949-.073zm0 5.838c-3.403 0-6.162 2.759-6.162 6.162s2.759 6.163 6.162 6.163 6.162-2.759 6.162-6.163c0-3.403-2.759-6.162-6.162-6.162zm0 10.162c-2.209 0-4-1.79-4-4 0-2.209 1.791-4 4-4s4 1.791 4 4c0 2.21-1.791 4-4 4zm6.406-11.845c-.796 0-1.441.645-1.441 1.44s.645 1.44 1.441 1.44c.795 0 1.439-.645 1.439-1.44s-.644-1.44-1.439-1.44z"/>
+            </svg>
+          </a>
+          <a href="https://pinterest.com/noivaedates" target="_blank" rel="noopener noreferrer"
+             aria-label="Pinterest Noiva & Dates" class="footer__social">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M12 0C5.373 0 0 5.372 0 12c0 5.084 3.163 9.426 7.627 11.174-.105-.949-.2-2.405.042-3.441.218-.937 1.407-5.965 1.407-5.965s-.359-.719-.359-1.782c0-1.668.967-2.914 2.171-2.914 1.023 0 1.518.769 1.518 1.69 0 1.029-.655 2.568-.994 3.995-.283 1.194.599 2.169 1.777 2.169 2.133 0 3.772-2.249 3.772-5.495 0-2.873-2.064-4.882-5.012-4.882-3.414 0-5.418 2.561-5.418 5.207 0 1.031.397 2.138.893 2.738a.36.36 0 0 1 .083.345l-.333 1.36c-.053.22-.174.267-.402.161-1.499-.698-2.436-2.889-2.436-4.649 0-3.785 2.75-7.262 7.929-7.262 4.163 0 7.398 2.967 7.398 6.931 0 4.136-2.607 7.464-6.227 7.464-1.216 0-2.359-.632-2.75-1.378l-.748 2.853c-.271 1.043-1.002 2.35-1.492 3.146C9.57 23.812 10.763 24 12 24c6.627 0 12-5.373 12-12S18.627 0 12 0z"/>
+            </svg>
+          </a>
+          <a href="https://wa.me/5511999999999" target="_blank" rel="noopener noreferrer"
+             aria-label="WhatsApp Noiva & Dates" class="footer__social">
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Coleções</h4>
+        <ul class="footer__links">
+          <li><a href="#colecoes" class="footer__link">Convites Personalizados</a></li>
+          <li><a href="#colecoes" class="footer__link">Kits Padrinhos</a></li>
+          <li><a href="#colecoes" class="footer__link">Caixas Acrílico</a></li>
+          <li><a href="#colecoes" class="footer__link">Caixas Compensado</a></li>
+          <li><a href="#colecoes" class="footer__link">Gravação em Metal</a></li>
+          <li><a href="#colecoes" class="footer__link">Papelaria de Mesa</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Navegação</h4>
+        <ul class="footer__links">
+          <li><a href="#sobre" class="footer__link">Sobre o ateliê</a></li>
+          <li><a href="#como-funciona" class="footer__link">Como funciona</a></li>
+          <li><a href="#depoimentos" class="footer__link">Depoimentos</a></li>
+          <li><a href="#orcamento" class="footer__link">Solicitar orçamento</a></li>
+        </ul>
+      </div>
+
+      <div class="footer__col">
+        <h4 class="footer__heading">Contato</h4>
+        <ul class="footer__links">
+          <li><a href="https://wa.me/5511999999999" class="footer__link" target="_blank" rel="noopener noreferrer">WhatsApp</a></li>
+          <li><a href="mailto:oi@noivaedates.com.br" class="footer__link">oi@noivaedates.com.br</a></li>
+          <li><a href="https://instagram.com/noivaedates" class="footer__link" target="_blank" rel="noopener noreferrer">@noivaedates</a></li>
+        </ul>
+      </div>
+
+    </div>
+
+    <div class="footer__bar">
+      <div class="container footer__bar-inner">
+        <p>© <span id="footerYear">2025</span> Noiva & Dates. Todos os direitos reservados.</p>
+        <p>Feito com amor no Brasil ♡</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Flutuante -->
+  <a href="https://wa.me/5511999999999?text=Oi!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20orçamento."
+     class="whats-float"
+     target="_blank" rel="noopener noreferrer"
+     aria-label="Falar pelo WhatsApp">
+    <svg width="28" height="28" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+    <span class="whats-float__label">Orçamento</span>
+  </a>
+
+  <script src="script.js"></script>
+</body>
+</html>
