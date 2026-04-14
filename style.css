@@ -57,6 +57,7 @@ body {
 }
 
 img, video { display: block; max-width: 100%; height: auto; }
+picture { display: contents; }
 a { color: inherit; text-decoration: none; }
 button { cursor: none; border: none; background: none; font: inherit; }
 ul { list-style: none; }
